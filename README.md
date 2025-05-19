@@ -25,7 +25,7 @@ The project uses the EfficientNet-B0 architecture pretrained on ImageNet to clas
 
 ## Dataset
 
-- Source: [PlantVillage Dataset](https://github.com/spMohanty/PlantVillage-Dataset)  
+- Source:(https://www.kaggle.com/datasets/emmarex/plantdisease)  
 - The dataset is automatically split into training (70%), validation (15%), and test (15%) sets by the script.
 
 ---
@@ -65,8 +65,6 @@ The script will:
 
 | Parameter        | Description                                   | Default Value                        |
 |------------------|-----------------------------------------------|------------------------------------|
-| `SOURCE_DIR`     | Path to original PlantVillage dataset         | `"C:/Users/thoms/OneDrive/Desktop/Capstone/PlantVillage"` |
-| `DEST_DIR`       | Path to save split dataset                     | `"C:/Users/thoms/PycharmProjects/efficientnet/lastsplit"` |
 | `SPLIT_RATIOS`   | Dataset split ratios (train, val, test)        | `(0.7, 0.15, 0.15)`                |
 | `IMAGE_SIZE`     | Size to resize/crop images                      | `300`                              |
 | `BATCH_SIZE`     | Number of samples per batch                      | `32`                               |
